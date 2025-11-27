@@ -8,7 +8,7 @@
 
 ![Uygulama Görüntüsü](screenshot.png)
 
-## 🌟 Öne Çıkan Özellikler
+# 🌟 Öne Çıkan Özellikler
 
 * **🚀 Tam Otomatik:** Dosyaları uzantılarına göre algılar ve ilgili klasörlere taşır.
 * **🛡️ Akıllı Çakışma Yönetimi (Duplicate Handling):** Hedef klasörde aynı isimde dosya varsa üzerine **yazmaz**. Bunları özel bir *"Aynı Dosyalar (Duplicates)"* klasörüne ayırır. Veri kaybı yaşatmaz.
@@ -44,29 +44,36 @@ Uygulama aşağıdaki kategorileri otomatik oluşturur:
 
 *(Tanımlanamayan diğer dosyalar "Diğer" klasörüne taşınır.)*
 
-## 💻 Geliştiriciler İçin Kurulum (Developers)
+## 🛠️ Kurulum (Geliştiriciler İçin)
 
 Eğer kaynak kodunu geliştirmek veya incelemek isterseniz:
 
 1.  Repoyu klonlayın:
     ```bash
-    git clone [https://github.com/KULLANICI_ADINIZ/File-Organizer-Pro.git](https://github.com/KULLANICI_ADINIZ/File-Organizer-Pro.git)
+    # Windows (PowerShell)
+    git clone [https://github.com/Omer-Murat/File-Organizer-Pro.git](https://github.com/Omer-Murat/File-Organizer-Pro.git)
     cd File-Organizer-Pro
     ```
 
 2.  Gerekli kütüphaneyi yükleyin (Pillow):
     ```bash
+    # Windows (PowerShell)
     pip install Pillow
     ```
 
 3.  Uygulamayı çalıştırın:
     ```bash
+    # Windows (PowerShell)
     python File-Organizer-Tool-Pro.py
     ```
 
-### EXE Nasıl Derlenir? (Build)
+### 📦EXE Nasıl Derlenir? (Build)
 Projeyi tek dosya haline getirmek için PyInstaller kullanılır:
 
 ```bash
 # Windows (PowerShell)
 python -m PyInstaller --noconsole --onefile --icon=logo.png --add-data "logo.png;." --name="DosyaDuzenleyici_Pro" File-Organizer-Tool-Pro.py
+ ```
+Not: Bu proje eğitim amaçlıdır. Telif haklarına saygı gösteriniz.
+
+Geliştirici: Ömer Murat
