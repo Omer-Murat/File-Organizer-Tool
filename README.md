@@ -1,5 +1,9 @@
 # 📂 File Organizer Pro (Otomatik Dosya Düzenleyici)
 
+![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=c%2B%2B)
+![IDE](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-purple?style=for-the-badge&logo=visual-studio)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows)
+
 ![Logo](logo.png)
 
 **File Organizer Pro**, karmaşık klasörlerinizi (örneğin İndirilenler, Masaüstü) saniyeler içinde analiz eden, dosyaları türlerine göre (Resimler, Belgeler, Videolar vb.) kategorize eden ve düzenleyen **akıllı bir masaüstü uygulamasıdır.**
