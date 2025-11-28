@@ -55,7 +55,7 @@ Eğer kaynak kodunu geliştirmek veya incelemek isterseniz:
 1.  Repoyu klonlayın:
     ```bash
     # Windows (PowerShell)
-    git clone [https://github.com/Omer-Murat/File-Organizer-Pro.git](https://github.com/Omer-Murat/File-Organizer-Pro.git)
+    git clone https://github.com/Omer-Murat/File-Organizer-Pro.git
     cd File-Organizer-Pro
     ```
 
